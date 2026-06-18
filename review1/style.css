@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #11998e, #38ef7d); /* Green gradient theme */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.div-game {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.promo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #006a4e;
+  margin: 20px 0;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #006a4e;
+  color: white;
+}
+
+button:hover {
+  background: #004d38;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#div-success {
+  display: none; /* Keeps success screen node unlinked until score hits 3 */
+  color: #006a4e;
+}
