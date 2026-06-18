@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CampusCart - Promo Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-game">
+        <h1>Promo Challenge 🛒</h1>
+        
+        <div id="div-promo">
+            <h4>Verify 3 promo codes to win a prize voucher!</h4>
+            
+            <div id="promo-display" class="promo-text">GENERIC_CODE</div>
+
+            <input id="user-input" type="text" placeholder="Type coupon here" />
+            <br>
+            <button >Submit Promo</button>
+
+            <div class="score">
+                Verified: <span id="score-counter">0</span> / 3
+            </div>
+
+            <div id="feedback" class="message"></div>
+        </div>
+
+        <div id="div-success">
+            <h2>🎉 Voucher Unlocked! 🎉</h2>
+            <button >Claim Another?</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
